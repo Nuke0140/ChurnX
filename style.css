@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    background-color: #000000; /* Dark background color */
+    color: #b300ff; /* Light text color */
+    font-family: 'Roboto', sans-serif;
+}
+
+.stButton button {
+    background-color: #ff5722; /* Vibrant button color */
+    color: #ffffff; /* Button text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.stButton button:hover {
+    background-color: #e64a19; /* Darker shade on hover */
+}
+
+.stTextInput input, .stNumberInput input, .stSlider input {
+    background-color: #333333; /* Input background color */
+    color: #ffffff; /* Input text color */
+    border: 1px solid #444444; /* Input border color */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.stTextInput input:focus, .stNumberInput input:focus, .stSlider input:focus {
+    border-color: #ff5722; /* Border color on focus */
+}
+
+.stSelectbox select {
+    background-color: #333333;
+    color: #ffffff;
+    border: 1px solid #444444;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.stSelectbox select:focus {
+    border-color: #ff5722;
+}
